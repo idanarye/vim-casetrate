@@ -1,7 +1,7 @@
 let s:nonAlphanumericCharacters = '_+*=.-'
 
 function! casetrate#isUpperCase(char)
-    return 'A' <= a:char && a:char <= 'Z'
+    return 'A' <=# a:char && a:char <=# 'Z'
 endfunction
 
 function! casetrate#capitalize(word)
