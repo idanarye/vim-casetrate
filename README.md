@@ -5,6 +5,8 @@ Casetrate is a plugin for changing the case of identifiers. It can change
 the case to camelCase, PascalCase, snake_case, UPPER_CASE or Mixed_Case. In
 addition, in 'lisp' buffers it can change identifiers' case to lisp-case.
 
+Casetrate supports repeat(https://github.com/tpope/vim-repeat)
+
 
 USAGE
 =====

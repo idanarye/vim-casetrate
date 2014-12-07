@@ -123,6 +123,7 @@ function! casetrate#setCase(targetCase)
     let l:newLine = l:beforeWord . l:newWord . l:afterWord
     call setline('.', l:newLine)
     call cursor(0, l:wordStartIndex + l:posInNewWord + 1)
+    silent! call repeat#set(":Casetrate " . a:targetCase . "\<Cr>", v:count)
 endfunction
 
 function! casetrate#completeCases(argLead, cmdLine, cursorPos)
